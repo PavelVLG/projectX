@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "alwaysStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "incremental": true,
+        "module": "esnext",
+        "lib": [
+            "esnext",
+            "DOM"
+        ],
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "ES6",
+        "noErrorTruncation": true,
+        "importHelpers": false,
+        "baseUrl": "./src",
+        "rootDir": "./",
+        "types": [
+            "node",
+            "phaser"
+        ],
+        "allowJs": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
